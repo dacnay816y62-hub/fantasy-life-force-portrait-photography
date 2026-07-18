@@ -6,7 +6,77 @@
 
 这个 Skill 用来把普通游客照、生活随拍、手机废片或参考人像，转化为色彩鲜明、镜头亲密、真实鲜活、适合社交媒体发布的高级生命感人像摄影作品；也可以从零生成原创生命感人像样片、摄影提示词、风格方案和图像编辑指令。
 
-## 效果预览
+## 模式总览
+
+这个 Skill 主要有两个入口：
+
+| 模式 | 输入 | 适合做什么 | 输出 |
+| --- | --- | --- | --- |
+| MODE A｜普通照片升级 | 一张普通照片、游客照、生活随拍或手机废片 | 保留原人物，把照片改得更有光影、景深、情绪和摄影完成度 | 图像编辑方向、重绘提示词、氛围感大片方案 |
+| MODE B｜最高标准原创样片 | 一个主题、人物设定、场景或风格关键词 | 不依赖原图，从零生成原创生命感人像样片 | 原创人像提示词、成组样片方案、作品集方向 |
+
+## MODE A｜普通照片升级
+
+MODE A 的核心不是“换一张脸”，也不是把普通人重生成陌生模特。
+
+它做的是：
+
+- 保留原人物身份、表情、动作、服装和主要场景关系。
+- 重新判断画面的光线、景深、色温、前景、背景和裁切。
+- 把原本像随手拍的照片，升级成更像摄影师认真拍过的氛围感大片。
+
+适合输入：
+
+- 天台、街边、咖啡馆、书店、酒店、商场、地铁等日常场景照片。
+- 构图普通但人物状态还不错的照片。
+- 想保留真实感，但希望画面更高级、更有光影记忆点的照片。
+
+### MODE A 示例图
+
+<table>
+  <tr>
+    <th>原图</th>
+    <th>升级后</th>
+  </tr>
+  <tr>
+    <td><img src="assets/atmosphere/rooftop-before.jpg" alt="天台人像原图" width="330"></td>
+    <td><img src="assets/atmosphere/rooftop-after.jpg" alt="天台人像升级后效果" width="330"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/atmosphere/cafe-before.jpg" alt="咖啡馆人像原图" width="330"></td>
+    <td><img src="assets/atmosphere/cafe-after.jpg" alt="咖啡馆人像升级后效果" width="330"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/atmosphere/bookstore-before.jpg" alt="书店人像原图" width="330"></td>
+    <td><img src="assets/atmosphere/bookstore-after.jpg" alt="书店人像升级后效果" width="330"></td>
+  </tr>
+</table>
+
+这类改造的判断顺序是：
+
+**保留人物身份**  
+→ **保留原始事件**  
+→ **重新组织光线**  
+→ **拉开主体和背景层次**  
+→ **加入环境氛围记忆点**  
+→ **最后做克制的质感增强**
+
+## MODE B｜最高标准原创样片
+
+MODE B 不需要上传原图。
+
+它适合在你只有一个主题、一个场景、一个人物方向时，从零生成一组原创生命感人像。它会重新设计人物、事件、镜头、光线、色彩和质感，而不是反复套用同一种美女、同一种花海、同一种伸手动作。
+
+适合输入：
+
+- “夏日、逆光、年轻女性、近距离镜头”
+- “老人、亮色丝巾、街头硬光、时髦一点”
+- “儿童、风车、奔跑、低机位、高饱和”
+- “书店、回头、暖色灯光、浅景深”
+
+### MODE B 示例图
+
+MODE B 的默认审美更偏鲜明、明亮、亲密、高饱和、高对比。它会优先生成有镜头吸引力的女性人像，但不会固定成同一张网红脸，也不会把所有画面都做成同一种动作和场景。
 
 <table>
   <tr>
@@ -21,41 +91,28 @@
   </tr>
 </table>
 
-## 玩法二：普通照片变氛围感大片
-
-除了从零生成生命感写真，这个 Skill 还可以做另一件更实用的事：
-
-> 把一张普通照片，改造成有光影、有景深、有情绪记忆点的氛围感大片。
-
-重点不是换脸、换人、换场景，而是在保留人物和事件的前提下，重新处理拍摄距离、背景虚化、环境灯光、色温关系和局部高光。
+### MODE B 更多女性样片
 
 <table>
   <tr>
-    <th>原图</th>
-    <th>氛围感大片</th>
+    <td><img src="assets/showcase/mode-b/strawhat-lake-closeup.jpg" alt="草帽、湖边和花朵前景的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/soft-window-portrait.jpg" alt="柔光窗边原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/mountain-braid-portrait.jpg" alt="雪山、辫子和蓝天的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/ethnic-silver-portrait.jpg" alt="民族服饰和银饰的原创女性人像样片" width="220"></td>
   </tr>
   <tr>
-    <td><img src="assets/atmosphere/rooftop-before.jpg" alt="天台人像原图" width="330"></td>
-    <td><img src="assets/atmosphere/rooftop-after.jpg" alt="天台人像氛围感大片效果" width="330"></td>
+    <td><img src="assets/showcase/mode-b/lavender-field-portrait.jpg" alt="花田前景和浅景深的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/fruit-garden-portrait.jpg" alt="递水果事件感的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/flower-basket-reach.jpg" alt="花篮、伸手和近距离镜头的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/blue-fabric-sun.jpg" alt="蓝色布料前景和阳光遮挡的原创女性人像样片" width="220"></td>
   </tr>
   <tr>
-    <td><img src="assets/atmosphere/cafe-before.jpg" alt="咖啡馆人像原图" width="330"></td>
-    <td><img src="assets/atmosphere/cafe-after.jpg" alt="咖啡馆人像氛围感大片效果" width="330"></td>
-  </tr>
-  <tr>
-    <td><img src="assets/atmosphere/bookstore-before.jpg" alt="书店人像原图" width="330"></td>
-    <td><img src="assets/atmosphere/bookstore-after.jpg" alt="书店人像氛围感大片效果" width="330"></td>
+    <td><img src="assets/showcase/mode-b/red-board-motion.jpg" alt="红色道具和动态构图的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/snow-red-scarf.jpg" alt="雪地、红围巾和高饱和色彩的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/horse-travel-portrait.jpg" alt="马、旅行感和近距离镜头的原创女性人像样片" width="220"></td>
+    <td><img src="assets/showcase/mode-b/spring-water-closeup.jpg" alt="泉水、硬光和水花质感的原创女性人像样片" width="220"></td>
   </tr>
 </table>
-
-这类改造的判断顺序是：
-
-**保留人物身份**  
-→ **保留原始事件**  
-→ **重新组织光线**  
-→ **拉开主体和背景层次**  
-→ **加入环境氛围记忆点**  
-→ **最后做克制的质感增强**
 
 ## “生命感”到底是什么？
 
