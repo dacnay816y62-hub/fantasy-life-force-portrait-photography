@@ -21,6 +21,42 @@
   </tr>
 </table>
 
+## 玩法二：普通照片变氛围感大片
+
+除了从零生成生命感写真，这个 Skill 还可以做另一件更实用的事：
+
+> 把一张普通照片，改造成有光影、有景深、有情绪记忆点的氛围感大片。
+
+重点不是换脸、换人、换场景，而是在保留人物和事件的前提下，重新处理拍摄距离、背景虚化、环境灯光、色温关系和局部高光。
+
+<table>
+  <tr>
+    <th>原图</th>
+    <th>氛围感大片</th>
+  </tr>
+  <tr>
+    <td><img src="assets/atmosphere/rooftop-before.jpg" alt="天台人像原图" width="330"></td>
+    <td><img src="assets/atmosphere/rooftop-after.jpg" alt="天台人像氛围感大片效果" width="330"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/atmosphere/cafe-before.jpg" alt="咖啡馆人像原图" width="330"></td>
+    <td><img src="assets/atmosphere/cafe-after.jpg" alt="咖啡馆人像氛围感大片效果" width="330"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/atmosphere/bookstore-before.jpg" alt="书店人像原图" width="330"></td>
+    <td><img src="assets/atmosphere/bookstore-after.jpg" alt="书店人像氛围感大片效果" width="330"></td>
+  </tr>
+</table>
+
+这类改造的判断顺序是：
+
+**保留人物身份**  
+→ **保留原始事件**  
+→ **重新组织光线**  
+→ **拉开主体和背景层次**  
+→ **加入环境氛围记忆点**  
+→ **最后做克制的质感增强**
+
 ## “生命感”到底是什么？
 
 一开始，我也以为它只是一种调色。
@@ -101,6 +137,7 @@
 
 - 生成不同年龄段的生命感写真。
 - 为普通生活照提供二次构图与调色方向。
+- 把普通照片升级成更有光影、景深和电影感的氛围感大片。
 - 分析参考图的摄影语言，但不复制人物、场景和构图。
 - 建立更丰富的动作、镜头和场景组合。
 - 为 AI 图像生成或图像编辑整理更清晰的摄影提示词。
@@ -117,6 +154,12 @@ git clone https://github.com/dacnay816y62-hub/fantasy-life-force-portrait-photog
 
 ```text
 使用 Fantasy 生命感人像摄影 Skill，把这张普通生活照升级成更有生命感的人像。
+```
+
+普通照片变氛围感大片：
+
+```text
+使用 Fantasy 生命感人像摄影 Skill，保留人物身份和原场景，把这张普通照片改成有光影、景深和电影感的氛围感大片。
 ```
 
 也可以用于从零生成：

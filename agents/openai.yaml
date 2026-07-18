@@ -1,6 +1,6 @@
 interface:
   display_name: Fantasy 生命感人像摄影
-  short_description: 将普通游客照、生活随拍或废片，转化为色彩鲜明、镜头亲密、真实鲜活、适合朋友圈发布的高级摄影作品；也可从零生成最高标准的原创生命感样片。
+  short_description: 将普通游客照、生活随拍或废片，转化为色彩鲜明、镜头亲密、真实鲜活的生命感摄影作品；也可把普通照片升级成氛围感大片。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
