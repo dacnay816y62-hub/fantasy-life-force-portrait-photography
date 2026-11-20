@@ -1,0 +1,17 @@
+{
+  "name": "生命感人像写真",
+  "status": "通过",
+  "files": 3,
+  "compressed_bytes": 6081,
+  "expanded_bytes": 9868,
+  "max_folder_depth": 1,
+  "relative_links_verified": 2,
+  "name_characters": 7,
+  "description_characters": 115,
+  "sha256": "ec2eba47736c4407e9ae55aa9079edc41c6c8cdad0eecf5d377808dac696709a",
+  "archive": "fantasy-life-force-portrait-photography-jimeng-v1.0.0.zip",
+  "extracted_byte_match": true,
+  "basis": "用户提供的《满血版即梦 Skill 创建说明》",
+  "platform_upload_tested": false,
+  "media_generation_tested": false
+}

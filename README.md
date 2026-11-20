@@ -1,5 +1,8 @@
 # Fantasy 生命感人像摄影
 
+> **即梦版已提供：** [下载即梦技能 ZIP](https://github.com/dacnay816y62-hub/fantasy-life-force-portrait-photography/releases/download/jimeng-v1.0.0/fantasy-life-force-portrait-photography-jimeng-v1.0.0.zip) · [查看即梦版说明](jimeng/README.md)。上传即梦请使用此专用 ZIP；原版技能继续保留。
+
+
 **FANTASY / 梵想美学 · 摄影与照片转译**
 
 围绕人物状态、事件、亲密镜头和光色关系，升级生活照或构建原创电影化人像。
